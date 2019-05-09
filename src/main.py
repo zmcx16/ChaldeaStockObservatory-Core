@@ -1,3 +1,4 @@
+import sys
 import zerorpc
 
 
@@ -10,5 +11,5 @@ class ChaldeaStockObservatoryCore(object):
 
 if __name__ == "__main__":
     s = zerorpc.Server(ChaldeaStockObservatoryCore())
-    s.bind("tcp://0.0.0.0:7777")
+    s.bind("tcp://0.0.0.0:" + sys.argv[1])
     s.run()

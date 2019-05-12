@@ -17,13 +17,21 @@ class ChaldeaStockObservatoryCore(object):
             return None
 
     @staticmethod
+    def get_stock(symbol):
+
+        ret, output = Stock.get_stock(symbol)
+        if ret == ERR_SUCCESS:
+            return output
+        else:
+            return None
+
+    @staticmethod
     def test(cmd):
         return cmd
 
 
 if __name__ == "__main__":
-    #print(ChaldeaStockObservatoryCore.get_realtime_stock('T'))
-
+    # print(ChaldeaStockObservatoryCore.get_stock('T'))
     parser = argparse.ArgumentParser()
     parser.add_argument("-port", dest="port")
     args = parser.parse_args()
@@ -33,6 +41,6 @@ if __name__ == "__main__":
         s.run()
     else:
         print('Need assign port.')
-    
+
 
 

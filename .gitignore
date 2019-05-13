@@ -3,3 +3,4 @@
 /src/dist
 /src/*.pyc
 /src/*.spec
+/venv

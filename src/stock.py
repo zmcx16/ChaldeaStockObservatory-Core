@@ -22,17 +22,17 @@ class Stock(object):
 
         quote = Stock.__extract_quote(json.loads(res))
 
-        output['open'] = quote['quote'][0]['open'][len(quote['quote'][0]['open']) - 1]
-        output['high'] = quote['quote'][0]['high'][len(quote['quote'][0]['high']) - 1]
-        output['low'] = quote['quote'][0]['low'][len(quote['quote'][0]['low']) - 1]
-        output['close'] = quote['quote'][0]['close'][len(quote['quote'][0]['close']) - 1]
+        output['openP'] = quote['quote'][0]['open'][len(quote['quote'][0]['open']) - 1]
+        output['highP'] = quote['quote'][0]['high'][len(quote['quote'][0]['high']) - 1]
+        output['lowP'] = quote['quote'][0]['low'][len(quote['quote'][0]['low']) - 1]
+        output['closeP'] = quote['quote'][0]['close'][len(quote['quote'][0]['close']) - 1]
         output['volume'] = quote['quote'][0]['volume'][len(quote['quote'][0]['volume']) - 1]
-        output['changeP'] = (output['close'] - quote['chartPreviousClose']) / quote['chartPreviousClose']
+        output['changeP'] = (output['closeP'] - quote['chartPreviousClose']) / quote['chartPreviousClose']
 
-        output['open'] = "{:.2f}".format(output['open'])
-        output['high'] = "{:.2f}".format(output['high'])
-        output['low'] = "{:.2f}".format(output['low'])
-        output['close'] = "{:.2f}".format(output['close'])
+        output['openP'] = "{:.2f}".format(output['openP'])
+        output['highP'] = "{:.2f}".format(output['highP'])
+        output['lowP'] = "{:.2f}".format(output['lowP'])
+        output['closeP'] = "{:.2f}".format(output['closeP'])
         output['volume'] = Stock.__human_format(output['volume'])
         output['changeP'] = "{:.2%}".format(output['changeP'])
 

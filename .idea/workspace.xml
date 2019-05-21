@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="40babe25-a810-4872-8af8-09ed41146271" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stock.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/stock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,24 +17,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main.py">
+        <entry file="file://$PROJECT_DIR$/src/stock.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-449">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <state relative-caret-position="-513">
+              <caret line="36" column="23" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="23" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/stock.py">
+        <entry file="file://$PROJECT_DIR$/src/core.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1190">
-              <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+            <state relative-caret-position="114">
+              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -44,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/src/web.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
-              <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -81,10 +81,11 @@
         <option value="$PROJECT_DIR$/src/common.py" />
         <option value="$PROJECT_DIR$/src/main.py" />
         <option value="$PROJECT_DIR$/src/stock.py" />
+        <option value="$PROJECT_DIR$/src/core.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="4" />
     <option name="y" value="17" />
     <option name="width" value="1903" />
@@ -273,7 +274,7 @@
     <entry file="file://$PROJECT_DIR$/src/web.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -282,10 +283,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/stock.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1190">
-          <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+        <state relative-caret-position="-513">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="23" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>

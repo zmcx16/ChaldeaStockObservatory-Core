@@ -31,7 +31,7 @@ class ChaldeaStockObservatoryCore(object):
 
 
 if __name__ == "__main__":
-    print(ChaldeaStockObservatoryCore.get_stock('T'))
+    #print(ChaldeaStockObservatoryCore.get_stock('T'))
     parser = argparse.ArgumentParser()
     parser.add_argument("-port", dest="port")
     args = parser.parse_args()

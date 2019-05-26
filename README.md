@@ -1,6 +1,5 @@
 # ChaldeaStockObservatory-Core
 
-# Description
 It's a core module of [ChaldeaStockObservatory](https://github.com/zmcx16/ChaldeaStockObservatory).
 
 # Requirements

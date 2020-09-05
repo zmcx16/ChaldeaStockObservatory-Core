@@ -1,0 +1,7 @@
+/src/__pycache__
+/src/build
+/src/dist
+/src/*.pyc
+/src/*.spec
+/venv
+/.idea/workspace.xml
